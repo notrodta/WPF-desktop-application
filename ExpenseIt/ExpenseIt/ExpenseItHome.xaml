@@ -21,6 +21,11 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
+        <Grid.Background>
+            <ImageBrush ImageSource="watermark.png"/>
+        </Grid.Background>
+
+
         <Label Grid.Column="1" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
         FontWeight="Bold" FontSize="18" Foreground="#0066cc">
             View Expense Report
